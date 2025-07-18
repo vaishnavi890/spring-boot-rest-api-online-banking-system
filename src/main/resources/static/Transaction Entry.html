@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Transaction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>New Transaction</h1>
+<form method="post" action="/addTransaction">
+    <input type="text" name="fromAccountId" placeholder="From Account ID" required>
+    <input type="text" name="toAccountId" placeholder="To Account ID" required>
+    <input type="number" name="amount" placeholder="Amount" required>
+    <button type="submit">Transfer</button>
+</form>
+</body>
+</html>

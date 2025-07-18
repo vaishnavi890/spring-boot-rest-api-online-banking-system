@@ -1,0 +1,93 @@
+/* === Reset === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === Body Layout === */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* === Form Container === */
+form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 450px;
+}
+
+/* === Heading === */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* === Input Fields === */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="datetime-local"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+/* === Textarea Style === */
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* === Submit Button === */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* === Responsive for Small Devices === */
+@media (max-width: 500px) {
+    form {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
