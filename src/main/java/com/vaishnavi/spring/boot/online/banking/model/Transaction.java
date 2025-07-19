@@ -17,5 +17,8 @@ public class Transaction {
     private String txnType;      // e.g., "TRANSFER", "DEPOSIT", "WITHDRAWAL"
     private Date date;
     private String status;       // e.g., "SUCCESS", "FAILED", "PENDING"
+
+    public void setTransactionId(int i) {
+    }
 }
 

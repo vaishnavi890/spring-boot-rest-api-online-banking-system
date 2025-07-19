@@ -16,6 +16,9 @@ public class OtpVerification {
     private Date generatedAt;
     private Date expiresAt;
     private boolean verified;
+
+    public void setOtpId(int i) {
+    }
 }
 
 

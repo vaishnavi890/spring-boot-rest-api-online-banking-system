@@ -16,5 +16,8 @@ public class Card {
     private Date issueDate;
     private Date expiryDate;
     private String status;       // e.g., "ACTIVE", "BLOCKED"
+
+    public void setCardId(int i) {
+    }
 }
 

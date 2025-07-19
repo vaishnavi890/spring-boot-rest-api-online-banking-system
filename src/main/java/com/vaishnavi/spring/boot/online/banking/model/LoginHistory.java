@@ -16,5 +16,8 @@ public class LoginHistory {
     private String ipAddress;
     private String deviceInfo;
     private boolean successful;
+
+    public void setLoginId(int i) {
+    }
 }
 

@@ -14,6 +14,9 @@ public class Account {
     private String accountType;  // e.g., "SAVINGS", "CURRENT"
     private double balance;
     private String status;       // e.g., "ACTIVE", "INACTIVE"
+
+    public void setAccountId(int i) {
+    }
 }
 
 

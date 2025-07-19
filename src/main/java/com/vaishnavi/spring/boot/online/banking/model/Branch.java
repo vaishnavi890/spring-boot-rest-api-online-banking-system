@@ -16,6 +16,9 @@ public class Branch {
     private String state;
     private String ifscCode;
     private String contactNumber;
+
+    public void setBranchId(int i) {
+    }
 }
 
 

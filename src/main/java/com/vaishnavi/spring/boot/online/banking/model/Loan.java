@@ -16,5 +16,8 @@ public class Loan {
     private double interestRate;
     private int duration;        // in months
     private String status;       // e.g., "APPROVED", "PENDING", "REJECTED"
+
+    public void setLoanId(int i) {
+    }
 }
 

@@ -15,6 +15,9 @@ public class Feedback {
     private String message;
     private int rating;         // 1 to 5
     private Date submittedAt;
+
+    public void setFeedbackId(int i) {
+    }
 }
 
 

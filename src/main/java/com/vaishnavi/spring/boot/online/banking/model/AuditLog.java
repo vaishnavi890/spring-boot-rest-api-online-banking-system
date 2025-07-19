@@ -15,6 +15,9 @@ public class AuditLog {
     private String action;        // e.g., "ACCOUNT_CREATED", "PASSWORD_CHANGED"
     private Date timestamp;
     private String description;
+
+    public void setLogId(int i) {
+    }
 }
 
 

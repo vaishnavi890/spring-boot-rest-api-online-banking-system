@@ -14,6 +14,9 @@ public class AdminUser {
     private String password;
     private String role;     // e.g., "MANAGER", "AUDITOR"
     private String status;   // "ACTIVE", "INACTIVE"
+
+    public void setAdminId(int i) {
+    }
 }
 
 

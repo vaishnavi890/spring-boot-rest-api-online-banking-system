@@ -17,5 +17,8 @@ public class User {
     private String address;
     private String role;        // e.g., "CUSTOMER", "ADMIN"
     private String kycStatus;   // e.g., "PENDING", "VERIFIED"
+
+    public void setUserId(int i) {
+    }
 }
 

@@ -16,5 +16,8 @@ public class Notification {
     private String type;       // e.g., "EMAIL", "SMS", "PUSH"
     private Date sentAt;
     private String status;     // e.g., "SENT", "FAILED", "PENDING"
+
+    public void setNotificationId(int i) {
+    }
 }
 
